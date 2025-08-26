@@ -1,0 +1,49 @@
+
+  {
+    "P001": {
+      "name": "Amit Sharma",
+    "age": 34,
+    "gender": "Male",
+    "contact": {
+      "phone": "+91-9876543210",
+      "email": "amit.sharma@example.com"
+    },
+    "address": {
+      "street": "12 MG Road",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "pincode": "560001"
+    },
+    "diagnosis": {
+      "diagnosis_code": "I10",
+      "disease": "Hypertension",
+      "diagnosis_date": "2025-08-01"
+    },
+    "treatment": "Antihypertensive medication",
+    "doctor": "Dr. Ramesh Kumar"
+    },
+    "P002" : {
+      "patient_id": "",
+    "name": "Neha Verma",
+    "age": 28,
+    "gender": "Female",
+    "contact": {
+      "phone": "+91-9812345678",
+      "email": "neha.verma@example.com"
+    },
+    "address": {
+      "street": "22 Civil Lines",
+      "city": "Delhi",
+      "state": "Delhi",
+      "pincode": "110054"
+    },
+    "diagnosis": {
+      "diagnosis_code": "E11",
+      "disease": "Type 2 Diabetes",
+      "diagnosis_date": "2025-07-25"
+    },
+    "treatment": "Metformin and lifestyle modification",
+    "doctor": "Dr. Sunita Mehra"
+    }
+  }
+  

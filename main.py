@@ -1,15 +1,29 @@
 from fastapi import FastAPI;
-
+import json;
 app = FastAPI()
 
-@app.get("/")
+def load_data () : 
+    with open('patients.json','r') as f:
+        data = json.load(f)
 
+    return data
+
+@app.get("/")
 def hello():
-    return ("message : Hello World")
+    return {
+        'message' : 'Patient Management System API'
+    }
 
 @app.get("/about")
 
 def about() : 
     return {
-        'message' : "CampusX is an education platform"
+        'message' : "A fully functional API to manage your patient records"
     }
+
+@app.get("/view")
+
+def view() : 
+    data = load_data()
+
+    return data
